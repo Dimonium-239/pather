@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "783814835560",
+    "project_id": "pather-c3774",
+    "storage_bucket": "pather-c3774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783814835560:android:db8464e4f39d03f433aadd",
+        "android_client_info": {
+          "package_name": "com.github.dimonium_239.pather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783814835560-vc412olukhmldphiofet9clsfiifhq0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJrZz8-andz6ayhd7z3bk3r_oZfD1k3Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783814835560-vc412olukhmldphiofet9clsfiifhq0b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783814835560-qm4qks79imtpk113c6fchf42mfau4kki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.github.dimonium239.pather"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
