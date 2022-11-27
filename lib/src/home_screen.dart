@@ -1,10 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
-import 'package:pather/src/widgets/drawer/haburger_button.dart';
+import 'package:pather/src/data/repositories/firebase_impl/firebase_categories_repository.dart';
+import 'package:pather/src/data/repositories/firebase_impl/firebase_point_set_repository.dart';
 import 'package:pather/src/widgets/drawer/menu_drawer.dart';
 import 'package:pather/src/widgets/map/map_screen.dart';
-import 'package:pather/src/data/repositories/auth_repository.dart';
+import 'package:pather/src/data/repositories/interfaces/auth_repository.dart';
 import 'package:pather/src/widgets/sign_in/auth_gate.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -42,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
         return CircleAvatar(
           backgroundColor: Colors.indigo,
           child: Padding(
-            padding: EdgeInsets.all(1.75),
+            padding: const EdgeInsets.all(1.75),
             child: CircleAvatar(backgroundImage: Image.network(photoUrl).image),
           ),
         );
@@ -64,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       drawer: const MenuDrawer(),
       appBar: AppBar(
-        leading: const HamburgerButton(),
+        //leading: const HamburgerButton(),
         actions: [
           IconButton(
             icon: getButtonIcon(isLoggedIn),
@@ -99,7 +100,6 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           )
         ],
-        automaticallyImplyLeading: false,
       ),
       body: const MapScreen(),
     );

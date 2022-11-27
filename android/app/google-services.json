@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "783814835560",
     "project_id": "pather-c3774",
+    "firebase_url": "https://pather-c3774-default-rtdb.europe-west1.firebasedatabase.app",
     "storage_bucket": "pather-c3774.appspot.com"
   },
   "client": [

@@ -1,9 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:pather/src/data/repositories/interfaces/auth_repository.dart';
 
-abstract class UserRepository {
-  bool isUserLogged();
-  String userName();
-}
 
 class FirebaseUserRepository extends UserRepository{
   @override
@@ -16,6 +13,5 @@ class FirebaseUserRepository extends UserRepository{
   String userName() {
     return FirebaseAuth.instance.currentUser?.displayName ?? "Not logged-in";
   }
-
 }
 

@@ -8,4 +8,8 @@ abstract class Env {
 
   @EnviedField(varName: "GOOGLE_WEB_ID")
   static const String googleWebId = _Env.googleWebId;
+
+  @EnviedField(varName: "FIRESTORE_ID")
+  static const String firebaseId = _Env.firestoreId;
+
 }

@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
-import 'package:pather/src/data/repositories/auth_repository.dart';
+import 'package:pather/src/data/repositories/interfaces/auth_repository.dart';
 import 'package:pather/src/data/secrets/env.dart';
 import 'package:pather/src/home_screen.dart';
 
